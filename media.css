@@ -1,0 +1,302 @@
+@media (max-width: 767px) {
+
+
+    .lines {
+        display: flex;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        padding: 10px 20px;
+        position: relative;
+    }
+
+    .top-btn {
+		display: none;
+	}
+
+	.navbar {
+		position: absolute;
+		top: -700px;
+        z-index: 1;
+		left: 0;
+		right: 0;
+		flex-direction: column;
+		background: #fff;
+		align-items: flex-start;
+		box-shadow: 0px 0px 1px #c3bdb8;
+		transition: all .40s ease;
+	}
+
+	.navbar a {
+		display: block;
+		padding: 0.8rem;
+		margin: 0.5rem;
+	}
+
+	.navbar.open {
+		top: 100%;
+	}
+
+    #menu-icon {
+		display: block;
+	}
+
+
+    .gradientimg>h1{
+        max-width: 60%;
+        font-size: 100%;
+    }
+
+    .gradientimg>p{
+        padding: 2% 0 2% 0;
+        max-width: 50%;
+        font-size: 65%;
+    }
+
+    .imgrotate{
+        max-width: 50%;
+        position: absolute;
+        left: 55%;
+    }
+
+    .mainbuttondiv{
+        padding: 5% 0 0 0;
+    }
+
+    .btn1{
+        padding: 2%;
+        font-size: 55%;
+    }
+
+    .othertext{
+        padding: 2% 0 0 0;
+        max-width: 60%;
+        font-size: 65%;
+    }
+
+    .mainsection{
+        height: 30vh;
+    }
+
+    .secondsection-con>h1{
+        font-size: 100%;
+    }
+
+    .secondsection-info img{
+        width: 15%;
+    }
+
+    .secondsection-info2>h1,
+    .secondsection-info3>h1,
+    .secondsection-info5>h1{
+        max-width: 100%;
+        font-size: 80%;
+        padding-bottom: 2%;
+    }
+
+    .secondsection-info5>p,
+    .secondsection-info2>p,
+    .secondsection-info3>p{
+        font-size: 60%;
+    }
+
+    .secondsection-info2,
+    .secondsection-info3{
+        margin: 0;
+    }
+
+    .secondsection-info2{
+        max-width: 40%;
+        margin: 0 0 0 7%;
+    }
+
+    .secondsection-info3{
+        margin: 0 5% 0 0;
+        max-width: 40%;
+    }
+
+    .thirdsection-info{
+        font-size: 80%;
+    }
+
+    .shape1, .shape2{
+        padding: 0 10% 0 5%;
+        height: 35px;
+    }
+
+    .etherium,
+    .usd{
+        padding: 0;
+        width: 35px;
+    }
+
+    .etheriumshape,
+    .usdshape{
+       height: 35px;
+    }
+
+    .etheriumimg img{
+        width: 80%;
+    }
+
+    .usdimg img{
+        width: 150%;
+    }
+
+    .etheriumimg{
+        padding: 9px 11px 0 0;
+    }
+    .etheriumshape>p{
+        font-size: 70%;
+        margin: -80% 0 0 140%;
+    }
+
+    .fulletheriumshape{
+        padding-left: 5%;
+    }
+
+    .shape2 {
+        margin: 0 0 0 30%;
+    }
+
+    .usdimg{
+        padding: 40% 60% 0 0 ;
+    }
+
+    .usdshape>p{
+        font-size: 70%;
+        margin: -80% 0 0 140%;
+    }
+
+    .fullsolanashape{
+        margin-left: 3%;
+    }
+
+    .afteretherium{
+        margin-left: 20%;
+    }
+
+    .solanaimg{
+        padding: 7px 9px 0 0;
+    }
+
+    .solanashape>p{
+        font-size: 70%;
+        margin: -60% 0 0 140%;
+    }
+
+    .thirdsection-info>h1{
+        font-size: 120%;
+    }
+
+    .thirdsection-info>p{
+        font-size: 80%;
+    }
+    .cube {
+        width: 10%;
+        height: 38px;
+    }   
+
+    .fourthsection-info{
+        margin: 0 0 0 5%;
+    }
+
+    .suported-walets-info>h1{
+        font-size: 120%;
+    }
+
+    .suported-walets-info>p{
+        font-size: 80%;
+    }
+    
+    .suported-walets-info{
+        margin-top: -20%;
+    }
+
+    .fifthsection-info h1{
+        font-size: 120%;
+    }
+
+    .sixthsection-info h1{
+        font-size: 120%;
+    }
+
+
+    .sixthsection-info2-img img{
+        position: relative;
+        left: min(calc(100vw - 220px), 1200px);
+        width: 20%;
+    }
+
+    .sixthsection-info2-text>h1{
+        left: min(calc(100vw - 200px), 1200px);
+        max-width: 60%;
+        font-size: 120%;
+    }
+    .sixthsection-info2-text>p{
+        font-size: 80%;
+        left: min(calc(100vw - 200px), 1200px);
+        max-width: 60%;
+        padding-top: 1%;
+    }
+
+
+    .sixthsection-info2-text{
+        max-width: 80%;
+    }
+
+    .seventhsection-img img{
+        width: 70%;
+    }
+
+    .card-img{
+        overflow: hidden;
+        left: 0;
+    }
+
+    .card-img img{
+        margin-left: 20%;
+        max-width: none;
+        width: 100%;
+
+    }
+
+    .black-background{
+        margin-top: -15%;
+    }
+
+    .black-background-info h1,
+    .black-background-info2 h1{
+        font-size: 80%;
+    }
+
+    .black-background-info2 a{
+        padding-top: 2%;
+        font-size: 70%;
+    }
+
+    .logo2 a,
+    .copyright a{
+        padding-left: 0;
+        color: #fff;
+        font-size: 120%;
+    }
+
+    .copyright p{
+        padding-top: 2%;
+        font-size: 60%;
+    }
+
+    #myButton img{
+        margin-left: 0;
+    }
+
+    #myButton {
+        width: 40px;
+        height: 40px;
+        right: 10px;
+    }
+
+}

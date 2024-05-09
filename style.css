@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Outfit, sans-serif;
+
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+nav {
+    padding: 1%;
+    font-size: 15px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu a {
+    padding: 15px;
+}
+
+
+#menu-icon {
+    position: relative;
+    color: #000000;
+    font-size: 40px;
+    z-index: 1;
+    cursor: pointer;
+    display: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -35px;
+}
+
+
+.menu a {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    padding-left: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.logo a {
+    padding-left: 4%;
+    color: black;
+    font-size: 150%;
+}
+
+
+.mainsection {
+    width: 100%;
+    height: 110vh;
+    background-image: url("img/Untitled-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+
+}
+
+.gradientimg>h1 {
+    margin: 5% 0 2% 5%;
+    max-width: 30%;
+    font-size: 300%;
+    font-weight: 500;
+}
+
+.gradientimg>p {
+    max-width: 40%;
+    font-size: 150%;
+    margin: 0 0 0 5%;
+    color: gray;
+}
+
+
+.imgrotate {
+    max-width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+
+.imgrotate img {
+    max-width: 100%;
+}
+
+.btn1 {
+    border: none;
+    margin: 2% 0 0 5%;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.btn1:active,
+#myButton:active {
+    transform: scale(0.95);
+}
+
+.othertext {
+    margin: 2% 0 0 5%;
+    font-weight: 500;
+    font-size: 110%;
+    color: gray;
+}
+
+.secondsection {
+    width: 100%;
+}
+
+.secondsection-con>h1 {
+    font-size: 250%;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+}
+
+.secondsection-info {
+    width: 100%;
+}
+
+.secondsection-info1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.secondsection-info2 {
+    margin: 0 0 0 11%;
+
+}
+
+.secondsection-info3 {
+    margin: 0 12% 0 0;
+}
+
+.secondsection-info4 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.secondsection-info2>h1,
+.secondsection-info2>p,
+.secondsection-info3>h1,
+.secondsection-info3>p,
+.secondsection-info5>h1,
+.secondsection-info5>p {
+    text-align: center;
+}
+
+.secondsection-info2>h1,
+.secondsection-info3>h1,
+.secondsection-info5>h1,
+.thirdsection-info>h1,
+.suported-walets-info>h1,
+.fifthsection-info>h1,
+.sixthsection-info>h1,
+.sixthsection-info2-text>h1,
+.black-background-info>h1,
+.black-background-info2>h1 {
+    font-weight: 400;
+}
+
+.secondsection-info2>h1,
+.secondsection-info3>h1,
+.secondsection-info5>h1,
+.sixthsection-info2-text>h1 {
+    color: rgba(51, 51, 51, 1);
+
+}
+
+
+.thirdsection {
+    width: 100%;
+    margin: 5% 0 10% 0;
+}
+
+.thirdsection-info>h1 {
+    color: rgba(51, 51, 51, 1);
+    font-size: 200%;
+    padding: 7% 0 0 30px;
+}
+
+.thirdsection-info>p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 100%;
+    padding: 10px 0 0 30px;
+}
+
+.shapes {
+    display: flex;
+    margin: 5% 0 0 5%;
+}
+
+.shapes2 {
+    display: flex;
+    margin: 20px 0 0 5%;
+}
+
+.shape1,
+.shape2 {
+    background-color: rgba(180, 185, 201, 0.08);
+    width: 10%;
+    height: 80px;
+    border-radius: 30px;
+}
+
+.etherium {
+    padding: 10px 0 0 55px;
+    width: 110px;
+}
+
+.etheriumshape {
+    padding-left: 10px;
+    background: rgb(78, 78, 78);
+    background: linear-gradient(37deg, rgba(78, 78, 78, 1) 0%, rgba(244, 241, 241, 1) 100%);
+    border-radius: 50%;
+    height: 55px;
+}
+
+.etheriumimg {
+    padding: 12px 10px 0 0;
+    text-align: center;
+}
+
+.etheriumshape>p {
+    margin: -65% 0 0 140%;
+    color: rgba(42, 48, 48, 1);
+    text-transform: uppercase;
+}
+
+.shape2 {
+    margin: 0 0 0 150px;
+}
+
+.usd {
+    padding: 10px 0 0 55px;
+    width: 110px;
+}
+
+.usdshape {
+    padding-left: 10px;
+    background: rgb(0, 129, 255);
+    background: linear-gradient(37deg, rgba(0, 129, 255, 1) 10%, rgba(244, 241, 241, 1) 94%);
+    border-radius: 50%;
+    height: 55px;
+}
+
+.usdshape>p {
+    margin: -65% 0 0 140%;
+    color: rgba(42, 48, 48, 1);
+    text-transform: uppercase;
+}
+
+
+.cube {
+    width: 5%;
+    height: 8vh;
+    background: rgba(240, 240, 244, 0.42);
+}
+
+.cubeimg {
+    display: flex;
+    justify-content: center;
+}
+
+.cubeimg>img {
+    width: 70%;
+    margin-top: 20%;
+}
+
+.fourthsection-info {
+    margin: 0 0 0 20%;
+    display: flex;
+}
+
+
+
+.suported-walets-info {
+    position: absolute;
+    left: 50%;
+    margin-top: -6%;
+}
+
+.suported-walets-info>h1 {
+    color: rgba(51, 51, 51, 1);
+    font-size: 220%;
+    padding-bottom: 10px;
+}
+
+.suported-walets-info>p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.fourthsection {
+    padding-bottom: 50px;
+}
+
+.secondsection-info p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.fifthsection-gradient {
+    width: 100%;
+    height: 100%;
+    background: rgb(252, 251, 252);
+    background: linear-gradient(38deg, rgba(235, 241, 255, 255) 51%, rgba(178, 115, 255, 1) 73%, rgba(157, 152, 255, 1) 90%, rgba(252, 251, 252, 0.138) 100%);
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(252, 251, 252);
+    background: linear-gradient(39deg, rgba(178, 115, 255, 1) 30%, rgba(157, 152, 255, 1) 60%);
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+
+.fifthsection-info {
+    margin-bottom: 2%;
+}
+
+
+.fifthsection-info>h1:nth-child(1) {
+    padding-top: 5%;
+}
+
+.fifthsection-info>h1:nth-child(2) {
+    padding-top: 1%;
+}
+
+.fifthsection-info>h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(51, 51, 51, 1);
+    font-size: 200%;
+}
+
+.buttondiv {
+    text-align: center;
+}
+
+.buttondiv button {
+    margin: 5% 0 0 0;
+}
+
+.sixthsection {
+    margin-bottom: 5%;
+}
+
+.sixthsection-info>h1 {
+    color: rgba(51, 51, 51, 1);
+    margin: 0 0 0 5%;
+    font-size: 200%;
+}
+
+.sixthsection-info>h1:nth-child(1) {
+    margin-top: 5%;
+}
+
+.sixthsection-info>h1:nth-child(2) {
+    margin-top: 0.5%;
+}
+
+.sixthsection-info2-img img {
+    position: relative;
+    margin-top: 5%;
+    left: min(calc(100vw - 278px), 1200px);
+}
+
+.sixthsection-info2-text>h1 {
+    max-width: 20%;
+    position: relative;
+    left: min(calc(100vw - 278px), 1200px);
+    font-size: 200%;
+}
+
+.sixthsection-info2-text>p {
+    margin-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    left: min(calc(100vw - 278px), 1200px);
+    max-width: 20%;
+}
+
+.seventhsection {
+    height: 20vh;
+    background: rgb(214, 212, 252);
+    background: linear-gradient(137deg, rgba(214, 212, 252, 1) 11%, rgb(107, 86, 208) 57%, rgba(182, 143, 251, 1) 86%);
+}
+
+.seventhsection {
+    position: relative;
+    z-index: -1;
+}
+
+.seventhsection-img {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+.seventhsection-img img {
+    max-width: 80%;
+}
+
+.black-background {
+    margin-top: -2%;
+    width: 100%;
+    background: rgba(30, 32, 36, 1);
+}
+
+.card-img {
+    position: absolute;
+    top: -1%;
+    left: 60%;
+}
+
+
+.card-img img {
+    max-width: 70%;
+}
+
+.black-background-info>h1 {
+    max-width: 60%;
+    margin: 0 0 0 3%;
+}
+
+.black-background-info {
+    padding-top: 2%;
+}
+
+.black-background-info2 {
+    color: #fff;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.black-background-info2 a {
+    margin-top: 1%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.usdimg {
+    padding: 12px 12px 0 0;
+    text-align: center;
+}
+
+.etheriumshape>p {
+    margin: -50% 0 0 140%;
+}
+
+
+.copyright {
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.secondsection-infotext {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo2 a {
+    color: #fff;
+    font-size: 200%;
+}
+
+
+#myButton {
+    position: fixed;
+    bottom: -50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: rgb(252, 251, 252);
+    background: linear-gradient(39deg, rgba(178, 115, 255, 1) 30%, rgba(157, 152, 255, 1) 60%);
+    border-radius: 20%;
+    cursor: pointer;
+    transition: bottom 0.5s ease-in-out;
+}
+
+#myButton.show {
+    bottom: 50px;
+}
+
+#myButton img {
+    width: 20px;
+}
